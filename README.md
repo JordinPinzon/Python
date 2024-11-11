@@ -22,6 +22,7 @@ git clone https://github.com/JordinPinzon/Python.git
 ## Install Dependencies
 Once you have cloned the repository, enter the project folder with the command:
 cd Flask
+
 Next, install all the necessary dependencies using the command:
 Run `pip install -r requirements.txt` to install all the required dependencies.
 
