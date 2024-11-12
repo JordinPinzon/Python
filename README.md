@@ -40,13 +40,10 @@ The application will automatically reload if you change any of the source files.
 If you don't have Docker installed, go to the official Docker page and download it from " https ://www .docker .com /products /docker -desktop ". Follow the instructions to install Docker on your operating system.
 2. Download Image from Docker Hub
 Open your terminal and run the following command to download the Docker image:
-Docker pull jordin13/Python-app :nombreetiqueta
-## Build the Docker Image
-Once the image is downloaded, you can run the image with the command:
-docker build -t flask-app .
+docker pull jordin13/python-app:latest
 ## Run the container
 Once the image is downloaded, run a container using the following command:
-docker run -p 5000:5000 --name AppPython flask-app 
+docker run -d -p 5000:5000 --name python-app jordin13/python-app:latest 
 ## Access the Project
 Open your browser and go to the following address:
 http://localhost:5000
